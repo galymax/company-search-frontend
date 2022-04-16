@@ -3,3 +3,4 @@
 
 ## Improvements roadmap
 - debounce api search requests
+- Error handling
