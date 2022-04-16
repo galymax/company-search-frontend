@@ -1,5 +1,5 @@
 import { useCompanies } from '../data/CompaniesContext';
-import { List, Skeleton, Avatar } from 'antd'
+import { List, Avatar } from 'antd'
 
 export default function CompaniesList() {
     const { state: { companies, isLoading } } = useCompanies()

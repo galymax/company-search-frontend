@@ -5,7 +5,6 @@ import { GithubOutlined } from '@ant-design/icons'
 
 export default function CompanySearch() {
     const { Header, Content, Footer } = Layout;
-    const { Title } = Typography;
 
     return (
         <Layout className="layout">
