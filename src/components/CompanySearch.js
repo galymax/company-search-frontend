@@ -1,6 +1,6 @@
 import SearchForm from './SearchFrom';
 import CompaniesList from './CompaniesList';
-import { Layout, Divider, Typography } from 'antd'
+import { Layout, Divider } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
 
 export default function CompanySearch() {
