@@ -19,9 +19,9 @@ export default function CompanySearch() {
             </Content>
             <Footer style={{ textAlign: 'center' }}>
                 Company Search Demo ©2022 Created by Maxim Werkhowski<br />
-                <a href="https://github.com/galymax/company-search-frontend" target="_blank">
+                <a href="https://github.com/galymax/company-search-frontend" target="_blank" rel="noreferrer">
                     <GithubOutlined /> front end
-                </a> <a href="https://github.com/galymax/company-search-backend" target="_blank">
+                </a> <a href="https://github.com/galymax/company-search-backend" target="_blank" rel="noreferrer">
                     <GithubOutlined /> back end
                 </a>
             </Footer>

@@ -1,4 +1,4 @@
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import { CompaniesProvider } from "../data/CompaniesContext";
 import CompanySearch from "./CompanySearch";
 
