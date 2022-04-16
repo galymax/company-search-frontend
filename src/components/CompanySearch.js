@@ -8,8 +8,11 @@ export default function CompanySearch() {
 
     return (
         <Layout className="layout">
-            <Header>
+            <Header
+                style={{ color: '#fff', fontWeight: 'bold' }}
+            >
                 <div className="logo" />
+                Company Search
             </Header>
             <Content style={{ padding: '0 50px' }}>
                 <Divider>Filter</Divider>
