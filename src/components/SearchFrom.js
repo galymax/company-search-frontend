@@ -1,5 +1,5 @@
 import { useCompanies } from '../data/CompaniesContext';
-import { Form, Input, Checkbox, Row, Col } from 'antd'
+import { Form, Input, Checkbox, Row, Col, Spin } from 'antd'
 
 export default function SearchForm() {
   const { state: { specialities, isLoading }, dispatch } = useCompanies()
@@ -28,6 +28,8 @@ export default function SearchForm() {
       </Form.Item>
 
       <Form.Item name="specialities" label="Specialities">
+        {
+        specialities.length ?
         <Checkbox.Group>
           <Row>
             {specialities.map(speciality => (
@@ -39,6 +41,9 @@ export default function SearchForm() {
             ))}
           </Row>
         </Checkbox.Group>
+        : 
+        <Spin />
+        }
       </Form.Item>
     </Form>
   )

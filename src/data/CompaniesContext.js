@@ -26,7 +26,7 @@ function CompaniesProvider({ children }) {
     companies: [],
     specialities: [],
     criteria: {},
-    isLoading: false
+    isLoading: true
   })
   const value = { state, dispatch }
 
