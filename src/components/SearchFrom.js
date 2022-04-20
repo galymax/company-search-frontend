@@ -24,7 +24,7 @@ export default function SearchForm() {
     >
 
       <Form.Item name="name">
-        <Search placeholder="Filter by company name" loading={isLoading} />
+        <Search allowClear placeholder="Filter by company name" loading={isLoading} />
       </Form.Item>
 
       <Form.Item name="specialities" label="Specialities">
